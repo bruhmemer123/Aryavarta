@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Philosopher:wght@400;700&family=Tiro+Devanagari+Hindi&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.arya-display {
+  font-family: "Cinzel Decorative", Georgia, serif;
+}
+
+.arya-hindi {
+  font-family: "Tiro Devanagari Hindi", "Noto Serif Devanagari", serif;
+}
+
+.arya-body {
+  font-family: "Philosopher", Georgia, serif;
+}
+
+@keyframes arya-rot {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.arya-spin {
+  animation: arya-rot 120s linear infinite;
+}
+
+.arya-spin-rev {
+  animation: arya-rot 80s linear infinite reverse;
+}
+
+.arya-spin,
+.arya-spin-rev {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arya-spin,
+  .arya-spin-rev {
+    animation: none;
+  }
+}
