@@ -78,7 +78,7 @@ export default function Contact() {
             </span>
           </a>
           <a
-            href="https://djsceecell.com"
+            href="https://djscexpress.com"
             target="_blank"
             rel="noreferrer"
             className="group border border-amber-200/20 bg-[#130b07]/75 p-6 text-center transition-colors hover:border-amber-300/60 sm:p-7"
