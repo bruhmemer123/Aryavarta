@@ -87,7 +87,7 @@ export default function Contact() {
               VISIT OUR WEBSITE
             </span>
             <span className="mt-3 block text-base text-amber-100/85 transition-colors group-hover:text-amber-300 sm:text-lg">
-              djsceecell.com ↗
+              djscexpress.com ↗
             </span>
           </a>
         </div>
